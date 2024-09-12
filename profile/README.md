@@ -1,12 +1,17 @@
 ## Hi there 👋
 
-<!--
 
-**Here are some ideas to get you started:**
+# Fase 3
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+1. Implementar um API Gateway e um function serverless para autenticar o cliente com base no CPF
+    - Integrar ao sistema de autenticação para identificar o cliente.
+
+2. Implementar as melhores práticas de CI/CD para a aplicação, segregando os códigos em repositórios, por exemplo:
+    - 1 repositório para o Lambda.
+    - 1 repositório para sua infra Kubernetes com Terraform.
+    - 1 repositório para sua infra banco de dados gerenciáveis com Terraform.
+    - 1 repositório para sua aplicação que é executada no Kubernetes.
+
+3. Os repositórios devem fazer deploy automatizado na conta da nuvem utilizando actions. As branchs main/master devem ser protegidas, não permitindo commits direto. Sempre utilize pull request.
+
+4. Melhorar a estrutura do banco de dados escolhido, documentar seguindo os padrões de modelagem de dados e justificar a escolha do banco de dados.
