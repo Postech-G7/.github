@@ -2,8 +2,8 @@
 
 ### My Repositories
 
-- [Repo 1]([https://github.com/Postech-G7/upload-video](https://github.com/Postech-G7/upload-video))
-- [Repo 2]([https://github.com/Postech-G7/user-auth-management](https://github.com/Postech-G7/user-auth-management))
+- [upload-video](https://github.com/Postech-G7/upload-video)
+- [user-management](https://github.com/Postech-G7/user-auth-management)
 
   
 - [Repo 1](https://github.com/Postech-G7/repo1)
